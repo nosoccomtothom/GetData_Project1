@@ -23,6 +23,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Good luck!
 
-## Loading and transforming the data
+## Repository files
+
+CodeBook.md 
 
 All the details of the data source, transformations and exports are included in the *CodeBook.md*
