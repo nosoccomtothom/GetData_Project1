@@ -25,6 +25,14 @@ Good luck!
 
 ## Repository files
 
-CodeBook.md 
+**run_analysis.R** - Script containing all the steps for the data gathering, transformation and export  
+**CodeBook.md** - All the details of the data source, transformations and exports  
+**tidy_dataset.csv** - Tidy export of the test and trian data for the std and mean variables
+**tidy_dataset_mean.csv** - Tidy export of the test and train data with the mean values for the std and mean variables for each *subject* and *activity*
 
-All the details of the data source, transformations and exports are included in the *CodeBook.md*
+## Instructions
+* Make sure the libraries *plyr* and *data.table* are installed in R
+* Download the source data as described in **CodeBook.md**
+* Download the **run_analysis.R** in the same folder as the downloaded data
+* Include the script into the R session  
+   *source("run_analysis.R")*
